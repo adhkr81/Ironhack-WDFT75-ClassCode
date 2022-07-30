@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: aqua;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 999px) {
+  body {
+    background-color: red;
+  }
+  img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+img {
+  width: 800px;
+  height: 250px;
+}
